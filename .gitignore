@@ -1,0 +1,37 @@
+# Java compiler and build output
+*.class
+/bin/
+/out/
+/build/
+/target/
+/webapp/WEB-INF/classes/
+
+# Local configuration and credentials
+/config.local.bat
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*.pem
+*.key
+
+# Runtime uploads and generated Tomcat files
+/webapp/uploads/*
+!/webapp/uploads/.gitkeep
+/logs/
+/temp/
+/work/
+/webapps/
+/catalina.*.log
+/localhost_access_log.*.txt
+/hs_err_pid*.log
+
+# Local editor and operating-system files
+/.vscode/
+*.code-workspace
+.idea/
+.metadata/
+Thumbs.db
+Desktop.ini
+.DS_Store

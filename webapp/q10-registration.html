@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Q10 Registration</title><link rel="stylesheet" href="style.css"></head><body><main class="card">
+<p><a href="index.html">← Assignment home</a></p><h1>Q10 — Email Service Registration</h1>
+<p>Fields marked required are checked by the Servlet. All validation is server-side.</p>
+<form action="register" method="post">
+  <p><label for="firstName">First name (required)</label><input id="firstName" name="firstName" type="text"></p>
+  <p><label for="middleName">Middle name (optional)</label><input id="middleName" name="middleName" type="text"></p>
+  <p><label for="lastName">Last name (required)</label><input id="lastName" name="lastName" type="text"></p>
+  <p><label for="login">Desired login (required)</label><input id="login" name="login" type="text"></p>
+  <p><label for="password">Password (required)</label><input id="password" name="password" type="password"></p>
+  <p><label for="confirmPassword">Confirm password (required)</label><input id="confirmPassword" name="confirmPassword" type="password"></p>
+  <p><label for="location">Location (optional)</label><input id="location" name="location" type="text"></p>
+  <p><label for="education">Education (optional)</label><input id="education" name="education" type="text"></p>
+  <p><label for="phone">Phone number (optional)</label><input id="phone" name="phone" type="text"></p>
+  <button type="submit">Submit registration</button>
+</form><p class="note">Names must contain alphabets only. Password: at least 6 characters with an alphabet, a number and a special character.</p>
+</main></body></html>
